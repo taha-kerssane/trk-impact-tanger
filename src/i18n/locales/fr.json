@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "apartments": "Nos appartements",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Appartements Premium à Tanger",
+    "subtitle": "Vue mer, quartiers d’exception, prestations haut de gamme.",
+    "cta": "Voir les logements"
+  },
+  "about": {
+    "title": "TRK Impact Premium",
+    "text": "Sélection d’appartements vérifiés, check-in fluide, assistance 7j/7. Réservez en toute confiance."
+  },
+  "services": {
+    "title": "Services",
+    "list": ["Wi-Fi rapide", "Check-in 24/7", "Ménage professionnel", "Conciergerie", "Transfert aéroport"]
+  },
+  "testimonials": {
+    "title": "Avis de nos hôtes",
+    "a": "Séjour parfait, vue magnifique et hôte réactif.",
+    "b": "Emplacement top, très propre, je recommande."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une question ? Besoin d’aide pour réserver ?",
+    "cta": "Écrire sur WhatsApp"
+  },
+  "apts": {
+    "title": "Nos appartements / logements",
+    "details": "Voir le détail",
+    "priceFrom": "À partir de",
+    "perNight": " / nuit",
+    "reserve": "Réserver maintenant"
+  },
+  "details": {
+    "back": "← Retour",
+    "equip": "Équipements",
+    "location": "Localisation",
+    "gallery": "Galerie",
+    "reserve": "Réserver sur WhatsApp"
+  },
+  "footer": {
+    "rights": "© TRK Impact Premium. Tous droits réservés."
+  }
+,
+"apartments": {
+  "title": "Nos Appartements",
+  "details": "Voir les détails",
+  "reserve": "Réserver"
+}
+}

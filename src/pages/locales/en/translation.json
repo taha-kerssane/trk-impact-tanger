@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Luxury Apartments in Tangier",
+    "subtitle": "Sea view, prime locations, and premium 24/7 service.",
+    "cta": "Explore Apartments"
+  },
+  "about": {
+    "title": "TRK Impact Premium",
+    "text": "Carefully selected apartments to ensure comfort, security, and serenity. Smooth check-in and personalized support."
+  },
+  "services": {
+    "title": "Services",
+    "list": ["High-speed Wi-Fi", "24/7 Check-in", "Professional Cleaning", "Concierge", "Airport Transfer"]
+  },
+  "testimonials": {
+    "title": "Guest Reviews",
+    "a": "Perfect stay with an amazing view and warm welcome.",
+    "b": "Very clean, great location, and professional host."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Any questions or booking requests?",
+    "cta": "Chat on WhatsApp"
+  },
+  "apts": {
+    "title": "Our Apartments",
+    "details": "View Details",
+    "priceFrom": "From",
+    "perNight": " / night",
+    "reserve": "Book Now"
+  },
+  "details": {
+    "back": "← Back",
+    "equip": "Amenities",
+    "location": "Location",
+    "gallery": "Gallery",
+    "reserve": "Book via WhatsApp"
+  },
+  "footer": {
+    "rights": "© TRK Impact Premium. All rights reserved."
+  }
+}
