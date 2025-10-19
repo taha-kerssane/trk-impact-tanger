@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Concierge & Rental Management in Tangier",
+    "subtitle": "High-end apartments, smooth experience, 5★ service",
+    "cta": "Browse apartments"
+  },
+  "about": {
+    "title": "About us",
+    "text": "TRK Impact Tangier supports owners and travelers with turnkey management, premium service and a curated selection of exceptional apartments."
+  },
+  "services": {
+    "title": "Our premium services"
+  },
+  "apts": {
+    "title": "Our apartments",
+    "priceFrom": "From",
+    "perNight": " / night",
+    "reserve": "Book",
+    "details": "Details"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Questions? Need a quote? Write to us.",
+    "cta": "Send"
+  },
+  "testimonials": {
+    "title": "Guests loved it",
+    "a": "Impeccable service, stunning view.",
+    "b": "Perfect communication. Will come back!"
+  },
+  "details": {
+    "back": "Back",
+    "reserve": "Book now",
+    "location": "Location",
+    "equip": "Amenities"
+  },
+  "footer": {
+    "rights": "© TRK Impact Tangier. All rights reserved."
+  }
+}

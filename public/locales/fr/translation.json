@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "apartments": "Appartements",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Conciergerie & Gestion Locative Premium à Tanger",
+    "subtitle": "Appartements haut de gamme, expérience fluide, service 5★",
+    "cta": "Voir les appartements"
+  },
+  "about": {
+    "title": "Qui sommes-nous ?",
+    "text": "TRK Impact Tanger accompagne propriétaires et voyageurs avec une gestion clé en main, un service premium et une sélection d'appartements d’exception."
+  },
+  "services": {
+    "title": "Nos services premium"
+  },
+  "apts": {
+    "title": "Nos appartements",
+    "priceFrom": "À partir de",
+    "perNight": " / nuit",
+    "reserve": "Réserver",
+    "details": "Détails"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une question ? Besoin d’un devis ? Écrivez-nous.",
+    "cta": "Envoyer"
+  },
+  "testimonials": {
+    "title": "Ils ont adoré",
+    "a": "Service irréprochable, vue splendide.",
+    "b": "Communication parfaite, je reviendrai !"
+  },
+  "details": {
+    "back": "Retour",
+    "reserve": "Réserver maintenant",
+    "location": "Localisation",
+    "equip": "Équipements"
+  },
+  "footer": {
+    "rights": "© TRK Impact Tanger. Tous droits réservés."
+  }
+}
