@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import ApartmentDetails from "./pages/ApartmentDetails";
-import LanguageSwitcher from "./components/LanguageSwitcher"; // ✅ Ajout du sélecteur de langue
+import LanguageSwitcher from "./components/LanguageSwitcher"; // ✅ Sélecteur de langue
 
 export const WHATSAPP_NUMBER = "+33619642559";
 
@@ -32,27 +32,27 @@ function Home() {
 export default function App() {
   const { i18n } = useTranslation();
   const location = useLocation();
-  const [isGoldMode, setIsGoldMode] = useState(false); // ✅ État du mode clair/or
+  const [isGoldMode, setIsGoldMode] = useState(false);
 
-  // ✅ Gestion de la direction du texte pour l’arabe
+  // ✅ Langue & direction du texte (fr / en / ar)
   useEffect(() => {
     document.documentElement.lang = i18n.language;
     document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
   }, [i18n.language]);
 
-  // ✅ Scroll vers le haut à chaque changement de page
+  // ✅ Scroll en haut à chaque navigation
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
-  // ✅ Style dynamique (clair/or ou sombre)
+  // ✅ Gestion du mode clair/or
   const bgClass = isGoldMode
     ? "bg-[#fdf4dc] text-black transition-all duration-500"
     : "bg-dark text-white transition-all duration-500";
 
   return (
     <div className={`min-h-screen ${bgClass} ${isGoldMode ? "gold-mode" : ""}`}>
-      {/* ✅ Sélecteur de langue et switch clair/or fixés en haut à droite */}
+      {/* ✅ Switch langue + thème */}
       <div className="fixed top-4 right-4 flex items-center gap-3 z-50">
         <LanguageSwitcher />
         <button
@@ -64,16 +64,23 @@ export default function App() {
         </button>
       </div>
 
+      {/* ✅ Header principal */}
       <Header />
+
+      {/* ✅ Pages / Routes */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/appartement/:slug" element={<ApartmentDetails />} />
-          {/* Fallback simple */}
+          {/* ✅ Route fallback */}
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
+
+      {/* ✅ Bouton WhatsApp */}
       <WhatsAppButton />
+
+      {/* ✅ Footer */}
       <Footer />
     </div>
   );
